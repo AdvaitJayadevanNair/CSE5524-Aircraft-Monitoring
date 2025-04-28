@@ -1,7 +1,0 @@
-path: ../datasets/HRPlanesv2 # dataset root dir
-train: images/train # train images
-val: images/test # val images
-
-# Classes
-names:
-  0: plane
