@@ -33,7 +33,7 @@ YOLO11l introduces enhanced feature fusion and attention mechanisms for better d
 
 🔗 **Download the pretrained YOLO11l and YOLOv8l ONNX model here:**
 
-> [Pretrained YOLO11l Model (Google Drive link)](INSERT-YOUR-MODEL-LINK-HERE)
+> [Pretrained YOLO11l Model (One Drive link)](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/jayadevannair_1_buckeyemail_osu_edu/EXRPcTx9oZlIvfdp2bzQ2_UB07_RRYUogDPdpuNJpGvKTA?e=PXgFqA)
 
 ---
 
@@ -43,7 +43,7 @@ Sample validation images from HRPlanesv2 are provided for testing the model.
 
 🔗 **Download test/validation images here:**
 
-> [Validation/Test Images (Google Drive link)](INSERT-YOUR-TEST-IMAGES-LINK-HERE)
+> [Validation/Test Images (One Drive link)](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/jayadevannair_1_buckeyemail_osu_edu/EcZsd8SiPwNPk4_X1g_MxOgBC-kiLiySh4gu1r0SvoO3cQ?e=7gcFku)
 
 Test images are organized as:
 
@@ -60,7 +60,20 @@ datasets/HRPlanesv2/
 
 ## 4. Commands to Run on Test Images
 
-After downloading the pretrained model and test images, you can run inference using the following command:
+After downloading the pretrained model and test images your folder should look like:
+
+```
+datasets/HRPlanesv2/
+  ├── HRPlanesv2.yaml
+  ├── images/
+  │   └── test/
+  └── labels/
+      └── test/
+yolov8l-best.pt
+yolo11l-best.pt
+```
+
+you can run inference using the following command:
 
 YOLOv8l:
 
